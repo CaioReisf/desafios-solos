@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+body{
+    
+    background: brown url(wallpaperbetter.jpg) center center no-repeat fixed; 
+    background-size: cover;    
+    color: white;    
+}
+header{
+    display: flex;
+    justify-content: space-between; /* Centraliza horizontalmente */
+    align-items: center;    /* Centraliza verticalmente */
+    padding: 10px;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    margin: auto;
+}
+img{
+    width: 45px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: small;
+    transition: 0.4s;
+    margin: 10px;
+}
+a:hover{
+    background-color: rgba(167, 57, 14, 0.747);
+    padding: 10px;
+    border-radius: 1000px;
+}
+article{
+    display: block;
+    align-items: center;
+    justify-items: center;
+    padding: 15px;
+    border-radius: 10px;
+    width: 400px;
+    height: 200px;
+    text-align: center;
+    margin: auto;
+    padding: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+}
