@@ -1,0 +1,45 @@
+body{
+    border: 1p solid black;
+}
+main{
+    display:flex;
+    color: white;
+    
+}
+.sedans{
+    background-color:  hsl(31, 77%, 52%);
+    padding: 62px;
+    border-radius: 10px 0px 0px 10px;
+}
+.suv{
+    background-color: hsl(184, 100%, 22%);
+    padding: 62px;
+}
+.luxu{
+    background-color: hsl(179, 100%, 13%);
+    padding: 62px;
+    border-radius: 0px 10px 10px 0px;
+}
+a{
+    text-decoration: none;
+    background-color: white;
+    padding: 10px;
+    border-radius: 1000px;
+}
+.b1{
+    color: hsl(31, 77%, 52%);
+}
+.b2{
+    color: hsl(184, 100%, 22%)
+}
+.b3{
+    color: hsl(179, 100%, 13%);
+}
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: small;
+}
