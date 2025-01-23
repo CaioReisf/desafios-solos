@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+body{
+   background-image: linear-gradient(to left, rgba(46, 46, 155, 0.781), rgb(109, 44, 109));
+   margin: 0px;
+   display: flex;
+   justify-content: center;
+   color: white;
+}
+.form{
+    background-color: rgba(0, 0, 0, 0.315);
+    border-radius: 20px;    
+     margin: 10px;
+    padding: 10px
+}
+#email{
+    background-color: transparent;
+    border-radius: 100px;
+    padding: 10px;
+    margin: 10px;
+}
+#senha{
+    background-color: transparent;
+    border-radius: 100px;
+    padding: 10px;
+    margin: 10px;
+}
+.boao{
+    border: 1px white solid;
+    color: white;
+    background-color: transparent;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 100px;
+    cursor: pointer;
+    
+}
