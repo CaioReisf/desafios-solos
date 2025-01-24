@@ -3,15 +3,25 @@
 body{
    background-image: linear-gradient(to left, rgba(46, 46, 155, 0.781), rgb(109, 44, 109));
    margin: 0px;
+   height: 100vh;
    display: flex;
+   align-items: center;
    justify-content: center;
    color: white;
+   transition: 0.5s;
 }
-.form{
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    margin: 0%;
+    padding: 0%;
+}
+.form{    
     background-color: rgba(0, 0, 0, 0.315);
     border-radius: 20px;    
-     margin: 10px;
-    padding: 10px
+    margin: 20px;
+    padding: 40px
 }
 #email{
     background-color: transparent;
@@ -34,4 +44,8 @@ body{
     border-radius: 100px;
     cursor: pointer;
     
+}
+.boao:hover{
+    background-color: white;
+    color: purple;
 }
