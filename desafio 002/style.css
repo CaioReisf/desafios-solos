@@ -39,14 +39,13 @@ a:hover{
 article{
     display: block;
     align-items: center;
-    justify-items: center;
-    padding: 15px;
+    justify-items: center;    
     border-radius: 10px;
     width: 400px;
     height: 200px;
     text-align: center;
     margin: auto;
-    padding: 200px;
+    padding: 215px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
