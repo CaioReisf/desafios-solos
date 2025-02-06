@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(22, 22, 22);
+}
+main{
+    display: flex;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;    
+}
+#pag{
+    background-color: rgba(44, 44, 44, 0.747);  
+    margin: 100px;  
+}
+.nos{
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+}
+.nav{
+    margin: 22px;
+    display: flex;
+    flex-direction: column;
+    width: 30px;
+    height: 30px;
+}
+.eles{
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    height: 60px;
+    width: 60px;
+    border-radius: 15px;
+    background-color: rgb(22, 22, 22);
+    padding: 7px;
+    
+}
+.eles:hover{
+    transition: 0.3s;
+    background-color: rgba(36, 35, 35, 0.575);
+}
