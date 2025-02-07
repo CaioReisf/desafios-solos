@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Vina+Sans&display=swap');
+
+body{
+    background: black url(imagens/6100.avif) center no-repeat fixed;    
+    background-size: cover;
+    margin: 0px; 
+     
+}
+header{    
+    background-color: rgb(0, 0, 0);
+    color: white;    
+    padding: 40px; /* Ajuste o padding para não expandir demais */
+    margin: 0;
+    display: flex;
+    align-items: center;  
+    justify-content: end; /* Mantém os itens bem distribuídos */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw; /* Garante que ocupe toda a largura */
+    height: 60px; /* Defina uma altura fixa */
+    z-index: 1000;
+    box-sizing: border-box; /* Evita que padding cause expansão inesperada */    
+}
+.cabeca{
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;   
+}
+.cabeca:hover{
+    transition: 0.4s;
+    text-decoration: #a5291b underline 5px;    
+    
+}
+
+main{
+    margin-left: 100px;
+    margin-top: 300px;
+    color:wheat ;
+}
+h1{
+    font-family: "Anton", serif;    
+    font-size: 6rem;  /* Aumenta o tamanho da fonte */
+    font-weight: 900; /* Deixa a fonte mais grossa */
+    text-transform: uppercase; /* Transforma em maiúsculas */
+    line-height: 1.1; /* Ajusta o espaçamento entre as linhas */    
+    margin-bottom:0%;
+    
+}    
+p{
+    width: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: 100;
+    
+}
+input{
+    background-color: black;      
+    border: none;
+    padding: 10px;
+    border-radius: 100px;
+    color: white;
+}
+input:hover{
+    cursor: pointer;
+    padding: 12px;
+    transition: 0.3s;
+
+}
