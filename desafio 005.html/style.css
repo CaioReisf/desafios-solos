@@ -42,12 +42,12 @@ header{
     
 }
 
-main{
-    margin-left: 100px;
-    margin-top: 300px;
+main{    
     color:wheat ;
 }
 .nome{
+    margin-left: 100px;
+    margin-top: 300px;
     margin-bottom: 250px;
 }
 h1{
@@ -86,6 +86,8 @@ input:hover{
     border-radius: 10px;
 }
 .sobre{
+    margin-left: 100px;
+    margin-top: 300px;
     display: flex;
     align-items: center; 
     gap: 100px;
@@ -96,6 +98,8 @@ span{
 }
 .disco{
     margin-top: 230px;
+    background-color: #a5291b;
+    padding: 10px;
 }
 .discos{
     display: flex;
@@ -105,14 +109,25 @@ span{
     margin-left: 0%;
     
 }
+.discos >a{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;    
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: wheat;
+    font-weight: 700;
+    text-transform: uppercase;    
+}
+
 .h11{
     text-align: center;
     margin-bottom:100px;
 }
-.albuns{
+.albuns{         
     width: 300px;
     height: 300px;
-    border:10px solid #a5291b ;
+    border:3px solid #000000 ;
     border-radius: 10px;
-    
+    margin-bottom: 7px;    
 }
