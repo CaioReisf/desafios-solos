@@ -1,64 +1,22 @@
 body{
-    background-color: rgb(22, 22, 22);
+    
     font-family: Arial, Helvetica, sans-serif;
     padding: 0%;
     margin:0%;
 }
-header{
-    display: flex;
-    align-items: center;
-    margin-left: 30px;
-    margin-top: 30px;
-    gap: 250px;
-}
-.nav{
-    width: 40px;
-    height: 40px;
-}
-.barra{
-    display: flex;
-    justify-content: center;
-    background-color: rgb(46, 44, 44);
-    padding: 2px;
-    border-radius: 100px;
-}
-.inpu{
-    border: none;
-    background-color: transparent;
-}
-main{
-    display: flex;
-    align-items: center;
-}
-.capas{
-    margin-left: 22px; 
-    margin-top: 30px;
+div{
     
+    width: 200px;
+    height: 200px;   
+    border: 1px solid black;
 }
-.capa-esquerda{
+.div1{
+    width: 400px;
+    height: 400px;
+    background-color: aqua;
+}
+.div2{
     display: flex;
-    padding: 7px;    
-    width: 40px;
-    height: 40px;
-    border-radius: 10px;   
-    
-}
-.capa-esquerda:hover{
-    background-color: rgb(42, 43, 43);
-}
-.direia{
-    background-color: rgb(46, 48, 48);
-    padding: 20px;
-    padding-top: 82px;
-    border-radius: 10px
-}
-.capa-direi{    
-    width: 100px;
-    height: 100px;
-    border-radius: 10px;
-    padding: 7px;
-    
-}
-.capa-direi:hover{
-    background-color: rgb(58, 59, 59);
+    justify-content: right;    
+    background-color: brown;
 }
