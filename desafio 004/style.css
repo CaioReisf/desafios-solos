@@ -4,7 +4,7 @@
     margin:0%;   
 }
 body{
-    background-color: rgb(22, 22, 22);
+    background-color: #161616;
 }
 
 header{
@@ -46,7 +46,7 @@ header{
     border: none;
 }
 .pesquisa:hover{
-    background-color: rgb(63, 63, 63);
+    background-color: #3f3f3f;
     opacity: 100%;
     transition: 0.5s;
     cursor: pointer;
@@ -74,8 +74,7 @@ header{
 
 
 main{
-    display: flex;
-    align-items:center;
+    display: flex;       
     margin-top: 50px;
     margin-left: 20px;
 }
@@ -92,7 +91,7 @@ ul, li{
     
 }
 li{
-    cursor: pointer;
+   cursor: pointer;
    background-color: rgb(63, 63, 63); 
    padding: 7px;
    border-radius: 100px;
@@ -102,7 +101,7 @@ li{
     color: white;
 }
 .criacao1 , .criacao2{
-    background-color: rgb(51, 51, 51);
+    background-color: #333333;
     margin-bottom: 5px;
     margin-top: 10px;
     padding: 15px;    
@@ -117,5 +116,20 @@ li{
 }
 
 .direia{
-    background-color: aqua;
+    
+    background-image: linear-gradient(to bottom ,#3f3f3f,  #161616);
+    width: 880px;
+    height: 500px;
+    margin-left: 15px;
+    border-radius: 10px 10px 0px 10px;
+}
+#imgs{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.redondo{
+    border-radius: 1000px;
+    width: 150px;   
 }
