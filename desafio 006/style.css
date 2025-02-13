@@ -5,11 +5,12 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
-    transition: 0.5s;
+    
 }
 
 header{
     padding: 30px;     
+    transition: 0.5s;
 }
 
 .navegacao{
@@ -26,21 +27,68 @@ header{
     text-transform: uppercase;
 }
 .nav:hover{
-    background-color: yellowgreen;
-    color: darkgreen;   
+    background-color: rgb(251, 255, 8);
+    color: rgb(9, 179, 4);   
     border-radius: 100px;
     transition: 0.5s;
 }
-body{
-    background: black url(4k\ Minimalist\ Wallpaper.jpg)
-    center no-repeat fixed;
-    background-size: cover;
-}
 h1{
-    color: white;
+    color: rgb(247, 223, 14);
     text-align: center;
     font-weight: 900; 
     text-transform: uppercase;
-    font-size: 5rem;
-    margin-top: 255px;
+    font-size: 7rem;
+    margin-top: 200px;
+    margin-bottom: 0px;
+    box-shadow: black 100px;
 }
+span{
+    color: rgb(20, 119, 16);
+}
+h2{
+    margin-top: 0px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-weight: 900; 
+    text-transform: uppercase;   
+    font-size: large;
+    box-shadow: black 100px;
+}
+
+/* Container do vídeo */
+.video-fundo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.video-fundo video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: auto;
+    height: 100%;
+    min-width: 100%;
+    min-height: 100%;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+    filter: brightness(50%);
+}
+
+
+/* Criando uma camada escura sobre o vídeo */
+.video-fundo::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Ajuste a opacidade para controlar a escuridão */
+    z-index: 1;
+}
+
