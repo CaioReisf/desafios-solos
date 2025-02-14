@@ -6,14 +6,16 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 header{
     padding: 30px;     
     transition: 0.5s;
 }
 body {    
-    background: black url(2002/2002\ 2.jpg) center no-repeat fixed;
-    background-size: cover;
+    background: black url(2002/2002\ 2.jpg) top no-repeat scroll;    
+    background-size: contain;
     min-height: 100vh; 
     
 }
@@ -25,7 +27,7 @@ body::before {
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 118%;
     background-color: rgba(0, 0, 0, 0.5); /* Deixa mais escuro */
     backdrop-filter: blur(px); /* Desfoca o fundo */
     z-index: -1;
@@ -54,4 +56,57 @@ body::before {
 
 main{
     background-color: rgb(245, 213, 31);
+    margin-top: 30%;
+    padding: 30px;
+}
+h1{
+    color: rgb(233, 211, 11);
+    text-align: center;
+    font-weight: 900; 
+    text-transform: uppercase;
+    font-size: 9rem;
+    margin-top: 200px;
+    margin-bottom: 0px;
+    box-shadow: black 100px;
+}
+.h11{
+    color: white;
+    color: blue;
+    text-align: center;
+    font-weight: 900; 
+    text-transform: uppercase;
+    font-size: 6rem;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    box-shadow: black 100px;
+}
+p{  
+    font-size:2rem ;
+    text-align: center;
+    color: white;
+    width: 900px;
+    margin: auto;
+}
+
+.h12{
+    color: rgb(233, 211, 11);
+    text-align: center;
+    font-weight: 900; 
+    text-transform: uppercase;
+    font-size: 9rem;
+    margin-top: 200px;
+    margin-bottom: 0px;
+    box-shadow: black 100px;
+}
+#elenco{
+    background-color: blue;      
+    padding-bottom: 50px; 
+}
+.elencoo{
+   display: flex;
+   justify-content: center;
+   margin-bottom: 15px;
+}
+iframe{
+    margin-left: 30%;   
 }
